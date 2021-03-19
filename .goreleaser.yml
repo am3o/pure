@@ -12,6 +12,14 @@ builds:
     goos:
       - linux
       - darwin
+brews:
+  -
+    tap:
+      owner: am3o
+      name: homebrew-tap
+    folder: Formula
+    homepage: https://github.com/am3o/pure
+    description: "Software to create fast and easy drum rolls."
 archives:
   - replacements:
       darwin: Darwin
